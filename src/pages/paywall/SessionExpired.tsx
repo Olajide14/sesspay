@@ -45,13 +45,18 @@ const SessionExpired: React.FC = () => {
             <div>
               <h3 className="text-sm font-medium text-gray-700 mb-3">What would you like to do next?</h3>
               <div className="space-y-4">
-                <button
-                  type="button"
-                  className="w-full flex justify-center items-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-primary hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500 transition-colors"
+                <a
+                  href="/paywall"
+                  className="w-full"
                 >
-                  <RefreshCw className="h-4 w-4 mr-2" />
-                  Renew Session
-                </button>
+                  <button
+                    type="button"
+                    className="w-full flex justify-center items-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-primary hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500 transition-colors"
+                  >
+                    <RefreshCw className="h-4 w-4 mr-2" />
+                    Renew Session
+                  </button>
+                </a>
                 
                 <div className="flex justify-center">
                   <a 
