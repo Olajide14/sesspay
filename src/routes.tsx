@@ -155,4 +155,18 @@ export const router = createBrowserRouter([
     path: '/pay/:projectId/expired',
     element: <SessionExpired />,
   },
+  
+  // Demo Paywall Routes (for easy testing)
+  {
+    path: '/paywall',
+    element: <PaywallScreen />,
+  },
+  {
+    path: '/payment-success',
+    element: <PaymentSuccess />,
+  },
+  {
+    path: '/session-expired',
+    element: <SessionExpired />,
+  },
 ]);
