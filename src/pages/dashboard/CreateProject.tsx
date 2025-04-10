@@ -55,6 +55,7 @@ const CreateProject: React.FC = () => {
                   >
                     <option>Blog</option>
                     <option>Course</option>
+                    <option>AI Agents</option>
                     <option>Digital Product</option>
                     <option>Service</option>
                     <option>Other</option>
